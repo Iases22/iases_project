@@ -28,3 +28,8 @@ def eratosthenes_sieve(limit):
                 array.remove(j)
 
     return array
+
+
+def try_me():
+    print('Prime numbers under 200: ')
+    print(eratosthenes_sieve(200))
